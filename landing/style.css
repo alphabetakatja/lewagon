@@ -1,0 +1,113 @@
+/* FONTS + COLORS */
+/* background-color: #dfdfdf; */
+
+
+body {
+background: #f4f9f4;
+color: rgb(20, 20, 20);
+font-family: 'Open Sans', sans-serif;
+margin: 0;
+}
+
+h1 {
+	color: #74b49b;
+	font-size: 36px;
+
+}
+
+h2 {
+  color: pink;
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+
+a {
+	text-decoration: none;
+	color: #393e46;
+	font-size: 25px;
+	margin-bottom: 30px;
+	margin-top: 40px;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #74b49b;
+	
+
+}
+
+p {
+	color: black;
+	font-size: 16px;
+}
+
+
+
+/* CUSTOM DESING*/
+
+#banner {
+	background-image: url("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+	background-size: cover;
+	padding: 150px 0px;
+	text-align: center;
+	color: white;
+}
+#banner h1 {
+	color: white;
+	font-size: 50px;
+	text-shadow: 0.3px 0.3px 0.3px grey;
+}
+
+
+#banner p {
+	color: black;
+	font-size: 20px;
+
+}
+
+.section {
+	padding: 50px;
+	font-weight: lighter; 
+	text-align: center;
+	height: 300px;
+	margin-bottom: 60px;
+}
+
+
+#footer {
+	background-color: #c5c5c5;
+	color: lightgrey;
+	font-size: 20px;
+	padding: 50px;
+
+}
+
+#footer a {
+  color: #7d7d7d;
+  font-size: 30px;
+  padding-right: 20px;
+  text-align: right;
+}
+#footer a:hover {
+  color: white;
+}
+
+#youtube a:hover {
+	color: red !important;
+}
+
+#facebook a:hover {
+	color: #34699a;
+}
+
+#twitter a:hover {
+	color: #113f67;
+}
+
+#github a:hover {
+	color: black;
+}
+#myphoto {
+	border-radius: 50%;
+}
